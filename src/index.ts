@@ -10,7 +10,7 @@ const port = 3000
 
 const fun0 = async (req: Request, res: Response) => {
   await db.conectarBD()
-   res.send("Este proyecto representa a una residencia de mayores, para más información de como navegar por la página consulte el documento README")
+   res.send("Este proyecto esta siendo accedido desde heroku y representa a una residencia de mayores, para más información de como navegar por la página consulte el documento README")
   db.desconectarBD()
 }
 
