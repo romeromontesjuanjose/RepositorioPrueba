@@ -20,7 +20,7 @@ const app = express_1.default();
 const port = 3000;
 const fun0 = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     yield database_1.db.conectarBD();
-    res.send("Este proyecto representa a una residencia de mayores, para más información de como navegar por la página consulte el documento README");
+    res.send("Este proyecto esta siendo accedido desde heroku y representa a una residencia de mayores, para más información de como navegar por la página consulte el documento README");
     database_1.db.desconectarBD();
 });
 const fun2 = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
